@@ -5,8 +5,10 @@
     "group:allDigest",
     "group:recommended",
     "group:monorepos",
-    ":prHourlyLimit4"
+    ":prHourlyLimit4",
+    "schedule:nonOfficeHours"
   ],
+  "timezone": "America/New_York",
   "packageRules": [
     {
       "matchUpdateTypes": ["minor", "patch", "pin", "digest"],
