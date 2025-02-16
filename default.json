@@ -6,7 +6,8 @@
     "group:recommended",
     "group:monorepos",
     ":prHourlyLimit4",
-    "schedule:nonOfficeHours"
+    "schedule:nonOfficeHours",
+    ":automergeRequireAllStatusChecks"
   ],
   "timezone": "America/New_York",
   "packageRules": [
