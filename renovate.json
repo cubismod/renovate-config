@@ -1,6 +1,12 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "extends": ["config:best-practices", "group:allDigest"],
+  "extends": [
+    "config:best-practices",
+    "group:allDigest",
+    "group:recommended",
+    "group:monorepos",
+    ":prHourlyLimit4"
+  ],
   "packageRules": [
     {
       "matchUpdateTypes": ["minor", "patch", "pin", "digest"],
