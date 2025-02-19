@@ -5,7 +5,7 @@
     "group:allDigest",
     "group:recommended",
     "group:monorepos",
-    ":prHourlyLimit4",
+    ":prHourlyLimit2",
     ":automergeRequireAllStatusChecks"
   ],
   "timezone": "America/New_York",
