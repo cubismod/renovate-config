@@ -6,7 +6,8 @@
     "group:recommended",
     "group:monorepos",
     ":prHourlyLimit2",
-    ":automergeRequireAllStatusChecks"
+    ":automergeRequireAllStatusChecks",
+    "schedule:nonOfficeHours"
   ],
   "timezone": "America/New_York",
   "packageRules": [
@@ -19,8 +20,5 @@
     "enabled": true,
     "automerge": true
   },
-  "assignees": ["cubismod"],
-  "schedule": [
-    "* 0-4,17-23 * * 1-5", "* * * * 0,6"
-  ]
+  "assignees": ["cubismod"]
 }
