@@ -7,7 +7,7 @@
     "group:monorepos",
     ":prHourlyLimit2",
     ":automergeRequireAllStatusChecks",
-    "schedule:nonOfficeHours"
+    "schedule:automergeNonOfficeHours"
   ],
   "timezone": "America/New_York",
   "packageRules": [
@@ -19,6 +19,5 @@
   "lockFileMaintenance": {
     "enabled": true,
     "automerge": true
-  },
-  "assignees": ["cubismod"]
+  }
 }
