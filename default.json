@@ -14,6 +14,10 @@
     {
       "matchUpdateTypes": ["patch", "pin", "digest", "pinDigest"],
       "automerge": true
+    },
+    {
+      "matchCategories": ["dockerfile", "docker-compose"],
+      "schedule": "* 0-1 * * *"
     }
   ],
   "lockFileMaintenance": {
