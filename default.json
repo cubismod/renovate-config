@@ -16,12 +16,8 @@
       "automerge": true
     },
     {
-      "matchCategories": ["asdf"],
-      "automergeSchedule": "* 0-3 * * 1"
-    },
-    {
       "matchPackageNames": ["*uv*"],
-      "automergeSchedule": "* 0-3 * * 1"
+      "schedule": "* 0-3 * * 1"
     }
   ],
   "lockFileMaintenance": {
