@@ -14,6 +14,10 @@
     {
       "matchUpdateTypes": ["patch", "pin", "digest", "pinDigest"],
       "automerge": true
+    },
+    {
+      "matchCategories": ["asdf"],
+      "automergeSchedule": "* 0-3 * * 1"
     }
   ],
   "lockFileMaintenance": {
