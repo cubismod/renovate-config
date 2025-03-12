@@ -16,7 +16,7 @@
       "automerge": true
     },
     {
-      "matchPackageNames": ["*uv*"],
+      "matchPackageNames": ["*uv*", "*boto*", "*ruff*"],
       "schedule": "* 0-3 * * 1"
     }
   ],
