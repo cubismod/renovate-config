@@ -18,6 +18,10 @@
     {
       "matchPackageNames": ["*uv*", "*boto*", "*ruff*"],
       "schedule": "* 0-3 * * 1"
+    },
+    {
+      "matchPackageNames": ["*pydantic*"],
+      "groupName": "pydantic"
     }
   ],
   "lockFileMaintenance": {
