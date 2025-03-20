@@ -17,7 +17,7 @@
     },
     {
       "matchPackageNames": ["*uv*", "*boto*", "*ruff*", "*renovate*"],
-      "schedule": "* 0-3 * * 1"
+      "automergeSchedule": "* 0-3 * * 1"
     },
     {
       "matchPackageNames": ["*pydantic*"],
@@ -26,6 +26,10 @@
     {
       "matchPackageNames": ["*boto*"],
       "groupName": "boto"
+    },
+    {
+      "matchPackageNames": ["*uv*"],
+      "groupName": "uv"
     }
   ],
   "lockFileMaintenance": {
