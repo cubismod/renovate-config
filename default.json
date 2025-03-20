@@ -16,8 +16,8 @@
       "automerge": true
     },
     {
-      "matchPackageNames": ["*uv*", "*boto*", "*ruff*", "*renovate*"],
-      "automergeSchedule": "* 0-3 * * 1"
+      "matchPackageNames": ["ghcr.io/astral-sh/uv", "uv", "*boto*", "*ruff*", "*renovate*"],
+      "schedule": "* 0-3 * * 1"
     },
     {
       "matchPackageNames": ["*pydantic*"],
@@ -28,7 +28,7 @@
       "groupName": "boto"
     },
     {
-      "matchPackageNames": ["*uv*"],
+      "matchPackageNames": ["ghcr.io/astral-sh/uv", "uv"],
       "groupName": "uv"
     }
   ],
