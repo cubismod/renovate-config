@@ -16,7 +16,7 @@
       "automerge": true
     },
     {
-      "matchPackageNames": ["ghcr.io/astral-sh/uv", "uv", "*boto*", "*ruff*", "*renovate*"],
+      "matchPackageNames": ["ghcr.io/astral-sh/uv", "uv", "*boto*", "*ruff*", "ghcr.io/renovatebot/renovate"],
       "schedule": "* 0-3 * * 1"
     },
     {
