@@ -21,7 +21,8 @@
         "uv",
         "*boto*",
         "*ruff*",
-        "ghcr.io/renovatebot/renovate"
+        "ghcr.io/renovatebot/renovate",
+        "astral-sh/setup-uv"
       ],
       "schedule": "* 0-3 * * 1"
     },
