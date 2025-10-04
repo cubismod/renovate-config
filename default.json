@@ -12,6 +12,14 @@
   "timezone": "America/New_York",
   "packageRules": [
     {
+      "matchDatasources": ["docker"],
+      "matchPackageNames": ["*postgres*", "*mysql*", "*mariadb*"],
+      "matchUpdateTypes": ["minor", "major"],
+      "automerge": false,
+      "reviewers": ["cubismod"],
+      "reviewersApprovalCount": 1
+    },
+    {
       "matchUpdateTypes": ["patch", "pin", "digest", "pinDigest"],
       "automerge": true
     },
