@@ -56,5 +56,5 @@
     "enabled": true,
     "automerge": true
   },
-  "reviewers": ["cubismod"]
+  "assignees": ["cubismod"]
 }
