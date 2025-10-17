@@ -48,7 +48,8 @@
     },
     {
       "matchPackageNames": ["ghcr.io/astral-sh/uv", "uv"],
-      "groupName": "uv"
+      "groupName": "uv",
+      "automerge": true
     }
   ],
   "lockFileMaintenance": {
