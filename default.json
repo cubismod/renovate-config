@@ -51,6 +51,11 @@
       "matchPackageNames": ["ghcr.io/astral-sh/uv", "uv"],
       "groupName": "uv",
       "automerge": true
+    },
+    {
+      "matchManagers": ["github-actions"],
+      "groupName": "github actions",
+      "automerge": true
     }
   ],
   "lockFileMaintenance": {
