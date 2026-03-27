@@ -11,6 +11,7 @@
     "replacements:all"
   ],
   "timezone": "America/New_York",
+  "internalChecksFilter": "strict",
   "packageRules": [
     {
       "matchDatasources": ["docker"],
@@ -57,6 +58,14 @@
       "matchManagers": ["github-actions"],
       "groupName": "github actions",
       "automerge": true
+    },
+    {
+      "matchDatasources": ["npm"],
+      "minimumReleaseAge": "5 days"
+    },
+    {
+      "matchDatasources": ["pypi"],
+      "minimumReleaseAge": "3 days"
     }
   ],
   "lockFileMaintenance": {
