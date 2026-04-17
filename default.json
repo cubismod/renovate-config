@@ -72,5 +72,10 @@
     "enabled": true,
     "automerge": true
   },
+  "vulnerabilityAlerts": {
+    "automerge": true,
+    "schedule": ["at any time"],
+    "automergeSchedule": ["at any time"]
+  },
   "assignees": ["cubismod"]
 }
