@@ -12,7 +12,7 @@
   ],
   "timezone": "America/New_York",
   "internalChecksFilter": "strict",
-  "commitHourlyLimit": 5,
+  "commitHourlyLimit": 2,
   "packageRules": [
     {
       "matchDatasources": ["docker"],
