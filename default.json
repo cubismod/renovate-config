@@ -7,7 +7,7 @@
     "group:monorepos",
     ":prHourlyLimit2",
     ":automergeRequireAllStatusChecks",
-    "schedule:automergeNonOfficeHours",
+    "schedule:nonOfficeHours",
     "replacements:all"
   ],
   "timezone": "America/New_York",
